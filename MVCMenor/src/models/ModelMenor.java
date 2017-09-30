@@ -5,7 +5,7 @@ public class ModelMenor {
     int n1=9;
     int n2=3;
     int n3=6;
-    int m=9;
+    int m=3;
     
     public int getN1(){
         return n1;
