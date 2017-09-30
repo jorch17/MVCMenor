@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package models;
 
-/**
- *
- * @author Jorch17
- */
 public class ModelMenor {
     int n1=9;
     int n2=3;
@@ -35,6 +27,9 @@ public class ModelMenor {
     }
     public int getM(){
         return m;
+    }
+    public void setM(int m){
+        this.m = m;
     }
     public void menor(){
         m = n1;
