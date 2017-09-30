@@ -23,13 +23,88 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jl_n1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jtf_n1" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jl_n2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jtf_n2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jl_n3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jtf_n3" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="jbtn_menor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jl_n1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtf_n1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jl_n2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtf_n2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jl_n3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtf_n3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jbtn_menor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jl_n1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jl_n2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NUmero 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jl_n3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtf_n1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtf_n2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtf_n3">
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn_menor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Menor"/>
+      </Properties>
+    </Component>
+  </SubComponents>
 </Form>
